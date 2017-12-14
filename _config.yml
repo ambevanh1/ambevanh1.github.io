@@ -1,0 +1,29 @@
+# Site settings
+title: My Jekyll Project
+description: "Jekyll Startproject Artevelde University College Ghent"
+authors:
+  - Dieter De Weirdt
+  - Olivier Parent
+language: nl
+
+# Handling Reading
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+
+gems:
+  - bootstrap
+
+bootstrap:
+  assets: true
+
+# Collections
+collections:
+  _keynotes:
+    output: false
+    permalink: /:collection/:path/:name/
+
+sass:
+  style: compressed
